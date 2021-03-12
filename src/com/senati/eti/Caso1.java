@@ -5,7 +5,7 @@ public class Caso1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         // Impresion en pantalla
-		System.out.println("Bienvenido programador SENATINO");
+		System.out.println("Hola programador SENATINO");
 	}
 
 }
