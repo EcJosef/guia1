@@ -1,6 +1,7 @@
 package com.senati.eti;
 
 import java.util.Scanner;
+
 import java.text.DecimalFormat;
 
 public class Caso17 {

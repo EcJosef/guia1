@@ -1,6 +1,7 @@
 package com.senati.eti;
 
 import java.util.Scanner;
+
 import java.text.DecimalFormat;
 
 public class Caso15 {
@@ -17,11 +18,14 @@ public class Caso15 {
 		
 		float importe_s = cantidad * precio;
 		float importe_d = importe_s / 3.24f;
+		float importe_e = importe_s/ 3.75f;
+		
 		
 		
 		System.out.println("\n=========== Resultados ==========");
 		System.out.println("Importe en Soles....." + df.format(importe_s));
 		System.out.println("Importe en dolares....." + df.format(importe_d));
+		System.out.println("Importe en euros....." + df.format(importe_e));
 
 	}
 
